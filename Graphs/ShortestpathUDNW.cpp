@@ -82,7 +82,10 @@ int main(){
         currentNode =parent[currentNode];
         ans.push_back(currentNode);
         }
+
+
         reverse(ans.begin(),ans.end());
+        
         cout<<"Shortest path->";
         for(int i=0;i<ans.size();i++) cout<<ans[i]<<"->";
         
